@@ -1,0 +1,19 @@
+.cabecalho {
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-menu a {
+    padding: 15px;
+    color: #222;
+    font-size: 1.25rem;
+}

@@ -1,0 +1,22 @@
+
+/* .container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+*/
+h1 {
+    background-color: #dddd;
+    padding: 20px;
+    text-align: center;
+} 
+
+.container {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 20px;
+    
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+      }
+      p {
+        max-width: 60ch;
+        font-size: 2rem;
+      }
+      .cover img {
+        max-width: 100%;
+        display: block;
+        height: 100%;
+
+      }
+
+      @media (max-width: 768px) {
+        .grid {
+            grid-template-columns: 1fr;
+        }
+        p {
+            grid-row: 1;
+            text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="cover">
+        <img
+          src="https://sm.ign.com/t/ign_br/screenshot/default/deku-izuku-midoriya-boku-no-hero-academia_kcue.1200.png"
+          alt=""
+        />
+      </div>
+
+      <p>
+        Boku no Hero conta a história de Izuku "Deku" Midoriya, um jovem que
+        nasceu sem Indivualidade (poder) em um mundo em que 80% da população
+        manifesta ao menos uma desde criança. O sonho do jovem de se tornar um
+        herói, inspirado pelo herói nº 1, All Might, é massacrado pela descobert
+      </p>
+    </div>
+  </body>
+</html>

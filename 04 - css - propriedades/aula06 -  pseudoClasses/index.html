@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pai h1:not(:first-child, .final){
+            background-color: red;
+        }
+
+        .pai h1:nth-child(4) {
+            background-color: red;
+        }
+        .info-item h3:last-child{
+            margin-top: 20px;
+        }
+
+        .info-item h3:nth-child(6) {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="pai">
+        <h1>sexo</h1>
+        <h1>sexo</h1>
+        <h1>sexo</h1>
+        <h1 class="final">sexo</h1>
+    </div>
+
+    <div class="info-item">
+        <h1>Nome: ENTEI</h1>
+        <h2>N°244</h2>
+        <h3>Type: Fire</h3>
+        <p>Skils: Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium consectetur nam voluptatem ipsa magnam, cupiditate commodi quia eveniet cumque dolores voluptas optio facere, autem ea, ducimus est culpa nemo tenetur?</p>
+        <h3>Weight: 198kg</h3>
+        <h3>Height: 2.1m</h3>
+    </div>
+</body>
+</html>

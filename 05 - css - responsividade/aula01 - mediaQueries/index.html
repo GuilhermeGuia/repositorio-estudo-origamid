@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            list-style: none;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url("https://images.alphacoders.com/661/661647.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        div {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 1080px;
+            max-width: 90%;
+            margin: 3rem auto;
+            gap: 2rem;
+        }
+        img {
+            max-width: 100%;
+            display: block;
+        }
+        h1 {
+            background-color: #c9ac08;
+            grid-column: 1 / -1;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        nav {
+            grid-column: 1 /-1;
+        }
+        nav ul{
+            display: flex;
+
+            background-color: #c9ac08;
+            justify-content: space-around;
+        }
+        @media screen and (max-width: 768px){
+            div {
+                grid-template-columns: 1fr;
+            }
+            p{
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li>Inicio</li>
+                <li>Personagens</li>
+                <li>Saitama</li>
+            </ul>
+        </nav>
+        <img src="https://d17lbu6bbzbdc8.cloudfront.net/wp-content/uploads/2022/02/07081541/One-Punch-Man-Saitama-Strength-Power.webp" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At doloribus labore minima quis voluptate veritatis mollitia maxime, hic nostrum laborum quod eos quidem. Qui explicabo optio facilis incidunt aliquid rem.</p>
+    </div>
+</body>
+</html>

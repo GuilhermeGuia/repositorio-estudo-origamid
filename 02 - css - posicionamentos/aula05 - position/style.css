@@ -1,0 +1,25 @@
+
+/* .container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+*/
+
+h1 {
+    background-color: lawngreen;
+    margin-top: 20px;
+}
+.index3 {
+    position: absolute;
+    background-color:lightblue;
+    z-index: 1;
+    top: 20px;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0;    
+}
